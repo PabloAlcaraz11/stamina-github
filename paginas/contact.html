@@ -3,7 +3,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CONTACT</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,900&display=swap" rel="stylesheet">  
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
@@ -51,26 +54,114 @@
             <h2>CONTACT</h2>
             <p>Explore&Learn tips, advices and recommendations on how to incorporate our products to reach your best shape.</p>
         </section>
+        <section id="contactForm">
+            <form class="row g-3 needs-validation" novalidate>
+                <div class="col-md-4">
+                <label for="validationCustom01" class="form-label">First name</label>
+                <input type="text" class="form-control" id="validationCustom01" value="" required>
+                <div class="valid-feedback">
+                    Looks good!
+                </div>
+                </div>
+                <div class="col-md-4">
+                <label for="validationCustom02" class="form-label">Last name</label>
+                <input type="text" class="form-control" id="validationCustom02" value="" required>
+                <div class="valid-feedback">
+                    Excellent!
+                </div>
+                </div>
+                <div class="col-md-4">
+                <label for="validationCustomUsername" class="form-label">Username</label>
+                <div class="input-group has-validation">
+                    <span class="input-group-text" id="inputGroupPrepend">@</span>
+                    <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+                    <div class="invalid-feedback">
+                    Please choose a username.
+                    </div>
+                </div>
+                </div>
+                <div class="col-md-6">
+                <label for="validationCustom03" class="form-label">City</label>
+                <input type="text" class="form-control" id="validationCustom03" required>
+                <div class="invalid-feedback">
+                    Please provide a valid city.
+                </div>
+                </div>
+                <div class="col-md-3">
+                <label for="validationCustom04" class="form-label">State</label>
+                <select class="form-select" id="validationCustom04" required>
+                    <option selected disabled value="">Choose...</option>
+                    <option>Florida</option>
+                    <option>New York City</option>
+                    <option>Texas</option>
+                    <option>Alabama</option>
+                </select>
+                <div class="invalid-feedback">
+                    Please select a valid state.
+                </div>
+                </div>
+                <div class="col-md-3">
+                <label for="validationCustom05" class="form-label">Zip</label>
+                <input type="text" class="form-control" id="validationCustom05" required>
+                <div class="invalid-feedback">
+                    Please provide a valid zip.
+                </div>
+                </div>
+                <div class="col-12">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                    <label class="form-check-label" for="invalidCheck">
+                    Agree to terms and conditions
+                    </label>
+                    <div class="invalid-feedback">
+                    You must agree before submitting.
+                    </div>
+                </div>
+                </div>
+                <div class="col-12" class="submit-button">
+                    <button class="btn btn-primary" type="submit">Submit form</button>
+                </div>
+            </form>
+        </section>
     </main>
-    <footer class="colorFooter">
+    <footer id="colorFooter">
         <div class="boxesFooter">
             <ul class="listOne">
-                <li class="title">SOCIAL MEDIA</li>
-                <li>Facebook</li>
-                <li>Instagram</li>
-                <li>TikTok</li>
+                <li class="title">COMPANY</li>
+                <li>Sitemap</li>
+                <li>Case Studies</li>
+                <li>Stamina Courses</li>
             </ul>
+
             <ul class="listOne">
                 <li class="title">ORDERS</li>
                 <li>Shipping</li>
-                <li>Payment Methods</li>
+                <li>Payments Methods</li>
                 <li>Return&Exchanges</li>
             </ul>
             <ul class="listOne">
                 <li class="title">CONTACT</li>
                 <li>Need Help?</li>
+                <li>Store Locator</li>
                 <li>Call:(011)1223493</li>
             </ul>
+            <ul class="listOne">
+                <li class="title">EVENTS</li>
+                <li>Upcoming Events</li>
+                <li>Event Sponsorship</li>
+                <li>Contests</li>
+            </ul>
+            <ul class="listOne">
+                <li class="title">ACADEMY</li>
+                <li>Training</li>
+                <li>Certification</li>
+                <li>Health Goals</li>
+            </ul>
+        <div class="social-media">
+            <img src="../imagenes/2959748_instagram_photo_share_icon.png" alt="">
+            <img src="../imagenes/2959749_facebook_icon.png" alt="">
+            <img src="../imagenes/2959742_broadcast_google_streaming_video_youtube_icon.png" alt="">
+        </div>
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
