@@ -47,7 +47,8 @@ main img{
     }
 .main-section p{
         font-size: 20px;
-        font-weight: lighter;
+        font-weight: lighter !important;
+        font-style: normal !important;
 }
 #navPage{
     margin: 10px 0;
@@ -87,6 +88,7 @@ main img{
 }
 .card-supplements p{
     text-decoration: underline;
+    font-style: normal !important;
 }
 /*--------------------------------------NUTRITION---------------------------------------------------*/
 .card-nutrition{
@@ -101,6 +103,7 @@ main img{
 }
 .card-nutrition p{
     text-decoration: underline;
+    font-style: normal !important;
 }
 /*----------------------------------------CONTACT---------------------------------------------------*/
 /*-------MAIN-------*/
