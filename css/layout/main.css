@@ -1,0 +1,26 @@
+main img {
+  width: 100%;
+}
+main #navPage {
+  margin: 10px 0;
+}
+main .carousel-item img {
+  object-fit: cover;
+}
+main .main-section {
+  text-align: center;
+  justify-content: center;
+  background-color: white;
+}
+main .main-section h2 {
+  font-weight: bold;
+  font-size: 30px;
+}
+main .main-section p {
+  font-size: 20px;
+  font-weight: lighter;
+  font-weight: lighter !important;
+  font-style: normal !important;
+}
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,32 @@
+footer{
+    background-color:rgb(25, 24, 24);
+    color: rgb(115, 114, 114);
+    width: 100%;
+    font-size: 15px;
+    padding: 8px 0;
+    .boxesFooter{
+        padding: 1px;
+        justify-content:space-evenly;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        padding: 0 25px;
+        .listOne{
+            text-align: center;
+            justify-content: flex-start;
+            text-decoration: none;
+            font-size: 12px;
+            list-style: none;
+            padding: 0;
+            .title{
+                font-size:16px;
+                font-weight: bold;
+        }
+    }
+    
+    }
+    .social-media img{
+        width: 40px;
+        height: 40px;
+    }
+}

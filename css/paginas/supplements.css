@@ -1,0 +1,16 @@
+.card-supplements {
+  margin: 15px 5px;
+}
+.card-supplements a {
+  width: 100%;
+  background-color: black;
+  color: white;
+  border-radius: 12px;
+  border-color: black;
+}
+.card-supplements p {
+  text-decoration: underline;
+  font-style: normal !important;
+}
+
+/*# sourceMappingURL=supplements.css.map */

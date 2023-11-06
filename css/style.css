@@ -1,231 +1,193 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Montserrat', sans-serif;
-}
-/*---------------------------------------------------------------------------HEADER------------------------------------------------*/
- a.container-fluid{
-    font-size: 18px;
-    font-weight: lighter;
-    display: flex;
-    justify-content: center;
-}
- a.navbar-brand{
-    font-size: 35px;
-}
-/*--------------MAIN----------*/
-main img{
-    width: 100%;
-}
-#mainForm{
-    background-color: rgb(29, 29, 29);
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-#mainForm button{
-    align-items: center;
-    display: flex;
-    background-color: black;
-    border-color: black;
-    margin-top: 25px;
-}
-.mb-3{
-    padding: 0 15px;
-    margin: 12px 0;
-}
-.main-section{
-        text-align: center;
-        justify-content: center;
-        background-color: white;
-    }
-    
-.main-section h2{
-        font-weight: bold;
-        font-size: 30px;
-    }
-.main-section p{
-        font-size: 20px;
-        font-weight: lighter !important;
-        font-style: normal !important;
-}
-#navPage{
-    margin: 10px 0;
-}
-.carousel-item img{
+@media (max-width: 576px) {
+  .boxesFooter {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 0 8px;
+  }
+  #mainForm {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  #mainForm button {
+    margin: 12px;
+  }
+  main img {
     object-fit: cover;
+  }
 }
-/*-----------ABOUT US-----------*/
-.aboutUs img{
-    object-fit: cover;
+#mainForm {
+  background-color: rgb(29, 29, 29);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.aboutUsdescription{
-    background-color:white;
-    color: black;
-    text-align: center;
-    justify-content: center;
+#mainForm button {
+  align-items: center;
+  display: flex;
+  background-color: black;
+  border-color: black;
+  margin-top: 25px;
 }
-.aboutUsdescription h2{
-    font-size: 30px;
-    font-weight: bold;
-}
-.aboutUsdescription p{
-    font-size: 15px;
-    font-weight: lighter !important;
-    font-style: normal !important;
-}
-/*---------------------------------------SUPPLEMENTS------------------------------------------------*/
-.card-supplements{
-    margin: 15px 5px;
-}
-.card-supplements a{
-    width: 100%;
-    background-color: black;
-    color: white;
-    border-radius: 12px;
-    border-color: black;
-}
-.card-supplements p{
-    text-decoration: underline;
-    font-style: normal !important;
-}
-/*--------------------------------------NUTRITION---------------------------------------------------*/
-.card-nutrition{
-    margin: 15px 5px;
-}
-.card-nutrition a{
-        width: 100%;
-        background-color: black;
-        color: white;
-        border-radius: 12px;
-        border-color: black;
-}
-.card-nutrition p{
-    text-decoration: underline;
-    font-style: normal !important;
-}
-/*----------------------------------------CONTACT---------------------------------------------------*/
-/*-------MAIN-------*/
-.photoContact img{
-    object-fit: cover;
-}
-.contactWallpaper{
-    text-align: center;
-    background-color: grey;
-    font-style: italic;
-    font-weight: bold;
-    color: black;
-}
-.contactSection{
-    text-align: center;
-    justify-content: center;
-    background-color: white ;
+#mainForm .mb-3 {
+  padding: 0 15px;
+  margin: 12px 0;
 }
 
-.contactSection h2{
-    font-weight: bold;
-    font-size: 30px;
+.card-supplements {
+  margin: 15px 5px;
 }
-.contactSection p{
-    font-size: 20px;
-    font-weight: lighter;
+.card-supplements a {
+  width: 100%;
+  background-color: black;
+  color: white;
+  border-radius: 12px;
+  border-color: black;
 }
-#ContactForm{
-    background-color: rgb(57, 57, 57);
-    color: black;
-    padding: 10px 15px;
-}
-#ContactForm button{
-    background-color: black;
-    color: white;
-    border-color: black;
-    border-radius: 10px;
-}
-/*---------------------------------------FOOTER-------------------------------------------------------*/
-footer{
-    background-color:rgb(25, 24, 24);
-    color: rgb(115, 114, 114);
-    width: 100%;
-    font-size: 15px;
-    padding: 8px 0;
-}
-.boxesFooter{
-    padding: 1px;
-    justify-content:space-evenly;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    padding: 0 25px;
-}
-.listOne{
-    text-align: center;
-    justify-content: flex-start;
-    text-decoration: none;
-    font-size: 12px;
-    list-style: none;
-    padding: 0;
-}
-.title{
-    font-size:16px;
-    font-weight: bold;
-}
-.social-media img{
-    width: 40px;
-    height: 40px;
-}
-/*--------------------------------------------------------------------------GRID--------------------------------------------------------------*/
-.prueba-grid{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 75px auto 50px;
-}
-.prueba-grid header{
-    background-color: blueviolet;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.prueba-grid main{
-    background-color: brown;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.prueba-grid footer{
-    background-color: aqua;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-/*----------------------------------------------------------------------------------------MEDIA QUERY--------------------------------------------*/
-@media (max-width:576px){
-    .boxesFooter{
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-        padding: 0 8px;
-    }
-    #mainForm{
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
-    #mainForm button{
-        margin: 12px;
-    }
-    main img{
-        object-fit: cover;
-    }
+.card-supplements p {
+  text-decoration: underline;
+  font-style: normal !important;
 }
 
+.card-nutrition {
+  margin: 15px 5px;
+}
+.card-nutrition a {
+  width: 100%;
+  background-color: black;
+  color: white;
+  border-radius: 12px;
+  border-color: black;
+}
+.card-nutrition p {
+  text-decoration: underline;
+  font-style: normal !important;
+}
 
+.photoContact img {
+  object-fit: cover;
+}
 
+.contactWallpaper {
+  text-align: center;
+  background-color: grey;
+  font-style: italic;
+  font-weight: bold;
+  color: black;
+}
 
+.contactSection {
+  text-align: center;
+  justify-content: center;
+  background-color: white;
+}
+.contactSection h2 {
+  font-weight: bold;
+  font-size: 30px;
+}
+.contactSection p {
+  font-size: 20px;
+  font-weight: lighter;
+}
 
+#ContactForm {
+  background-color: rgb(57, 57, 57);
+  color: black;
+  padding: 10px 15px;
+}
+#ContactForm button {
+  background-color: black;
+  color: white;
+  border-color: black;
+  border-radius: 10px;
+}
 
+.aboutUs img {
+  object-fit: cover;
+}
 
+.aboutUsdescription {
+  background-color: white;
+  color: black;
+  text-align: center;
+  justify-content: center;
+}
+.aboutUsdescription h2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+.aboutUsdescription p {
+  font-size: 15px;
+  font-weight: lighter !important;
+  font-style: normal !important;
+}
 
+header a.container-fluid {
+  font-size: 18px;
+  font-weight: lighter;
+  display: flex;
+  justify-content: center;
+}
+header a.navbar-brand {
+  font-size: 35px;
+}
 
+main img {
+  width: 100%;
+}
+main #navPage {
+  margin: 10px 0;
+}
+main .carousel-item img {
+  object-fit: cover;
+}
+main .main-section {
+  text-align: center;
+  justify-content: center;
+  background-color: white;
+}
+main .main-section h2 {
+  font-weight: bold;
+  font-size: 30px;
+}
+main .main-section p {
+  font-size: 20px;
+  font-weight: lighter;
+  font-weight: lighter !important;
+  font-style: normal !important;
+}
 
+footer {
+  background-color: rgb(25, 24, 24);
+  color: rgb(115, 114, 114);
+  width: 100%;
+  font-size: 15px;
+  padding: 8px 0;
+}
+footer .boxesFooter {
+  padding: 1px;
+  justify-content: space-evenly;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 0 25px;
+}
+footer .boxesFooter .listOne {
+  text-align: center;
+  justify-content: flex-start;
+  text-decoration: none;
+  font-size: 12px;
+  list-style: none;
+  padding: 0;
+}
+footer .boxesFooter .listOne .title {
+  font-size: 16px;
+  font-weight: bold;
+}
+footer .social-media img {
+  width: 40px;
+  height: 40px;
+}
 
-
+/*# sourceMappingURL=style.css.map */

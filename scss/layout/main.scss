@@ -1,0 +1,27 @@
+main{
+    img{
+        width: 100%;
+    }
+    #navPage{
+        margin: 10px 0;
+    }
+    .carousel-item img{
+        object-fit: cover;
+    }
+   
+    .main-section{
+            text-align: center;
+            justify-content: center;
+            background-color: white;
+            h2{
+                font-weight: bold;
+                font-size: 30px;
+            }
+            p{
+                font-size: 20px;
+                font-weight: lighter;
+                font-weight: lighter !important;
+                font-style: normal !important;
+        }
+    }
+}
