@@ -87,6 +87,7 @@
 .card-nutrition p {
   font-style: normal !important;
   color: white;
+  font-weight: lighter !important;
   background-color: black;
   border-radius: 12px;
 }
@@ -158,6 +159,7 @@ header .btn-white {
 }
 header .me-2 {
   border-color: black;
+  border-radius: 12px;
 }
 
 main img {

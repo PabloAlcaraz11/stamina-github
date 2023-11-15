@@ -1,26 +1,13 @@
 .card-supplements{
     margin: 15px 5px;
     h3{
-        font-size: 20px;
-        color: white;
+        @include cardtitle
     }
     a{
-        width: 100%;
-        background-color:white;
-        color:black;
-        border-radius: 12px;
-        border-color:black;
-        &:hover{
-            background-color: black;
-            color: antiquewhite;
-            border-color: black;
+       @include cardlink
         }
-    }
+    
     p{
-        font-style: normal !important;
-        color: white;
-       font-weight: lighter !important;
-       background-color: black;
-       border-radius: 12px;
+        @include cardtext
     }
 }

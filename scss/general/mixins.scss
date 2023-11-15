@@ -1,0 +1,23 @@
+@mixin cardtitle{
+    font-size: 20px;
+        color: white;
+}
+@mixin cardlink{
+    width: 100%;
+        background-color:white;
+        color:black;
+        border-radius: 12px;
+        border-color:black;
+        &:hover{
+            background-color: black;
+            color: antiquewhite;
+            border-color: black;
+}
+}
+@mixin cardtext{
+    font-style: normal !important;
+        color: white;
+       font-weight: lighter !important;
+       background-color: black;
+       border-radius: 12px;
+}
