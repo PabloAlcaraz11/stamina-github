@@ -1,9 +1,11 @@
-.aboutUs img{
-    object-fit: cover;
+.aboutUs{
+    img{
+        object-fit: cover;  
+    }
 }
 .aboutUsdescription{
     background-color:white;
-    color: black;
+    color:black;
     text-align: center;
     justify-content: center;
     h2{
@@ -15,4 +17,5 @@
         font-weight: lighter !important;
         font-style: normal !important;
     }
+
 }

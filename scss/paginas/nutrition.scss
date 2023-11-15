@@ -1,14 +1,25 @@
 .card-nutrition{
     margin: 15px 5px;
+    h3{
+        font-size: 20px;
+        color: white;
+    }
     a{
         width: 100%;
-        background-color: black;
-        color: white;
+        background-color:white;
+        color:black;
         border-radius: 12px;
-        border-color: black;
+        border-color:black;
+        &:hover{
+            background-color: black;
+            color: antiquewhite;
+            border-color: black;
+        }
     }
     p{
-        text-decoration: underline;
         font-style: normal !important;
+        color: white;
+        background-color: black;
+        border-radius: 12px;
      }
 }

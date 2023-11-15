@@ -12,8 +12,7 @@ footer{
         text-align: center;
         padding: 0 25px;
         .listOne{
-            text-align: center;
-            justify-content: flex-start;
+            justify-content:flex-start;
             text-decoration: none;
             font-size: 12px;
             list-style: none;
@@ -22,11 +21,14 @@ footer{
                 font-size:16px;
                 font-weight: bold;
         }
-    }
+        }
     
     }
-    .social-media img{
+    .social-media{
+    img{
         width: 40px;
         height: 40px;
+        color: white;
     }
+}
 }

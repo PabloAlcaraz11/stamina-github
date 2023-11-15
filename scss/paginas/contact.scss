@@ -1,17 +1,19 @@
-.photoContact img{
-    object-fit: cover;
+.photoContact{
+    img{
+        object-fit: cover;
+    } 
 }
 .contactWallpaper{
     text-align: center;
     background-color: grey;
     font-style: italic;
     font-weight: bold;
-    color: black;
+    color:black;
 }
 .contactSection{
     text-align: center;
     justify-content: center;
-    background-color: white ;
+    background-color:white;
     h2{
         font-weight: bold;
         font-size: 30px;
@@ -21,13 +23,13 @@
         font-weight: lighter;
     }
 }
-#ContactForm{
+#contactForm{
     background-color: rgb(57, 57, 57);
-    color: black;
+    color:black;
     padding: 10px 15px;
     button{
-        background-color: black;
-        color: white;
+        background-color:black;
+        color:white;
         border-color: black;
         border-radius: 10px;
     }

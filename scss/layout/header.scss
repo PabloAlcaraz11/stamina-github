@@ -1,11 +1,12 @@
 header{
-    a.container-fluid{
-        font-size: 18px;
-        font-weight: lighter;
-        display: flex;
-        justify-content: center;
+    img{
+        width: 50px;
     }
-    a.navbar-brand{
-        font-size: 35px;
+    .btn-white{
+        background-color: black;
+        color:white;
+    } 
+    .me-2{
+        border-color: black;
     }
 }
