@@ -2,6 +2,79 @@ $vista: mobile;
 
 @if $vista == mobile {
     @media (max-width:576px){
+        .main-supplements{
+            .supplements-title h1{
+                display: flex;
+                text-align: center;
+                align-items: center;
+                font-size: 35px;
+                color:white;
+            } 
+        } 
+        .nutrition{
+            .banner-nutrition h1{
+                display: flex;
+                text-align: center;
+                align-items: center;
+                font-size: 35px;
+                color:white; 
+            }
+        }
+        .main-box{
+            .contact-banner{
+                h1{
+                    display: flex;
+                    text-align: center;
+                    align-items: center;
+                    font-size: 35px;
+                    color:white;
+                }
+                p{
+                    color: white;
+                    font-size: 15px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;  
+                }
+            }
+        }
+        .home{
+            .hero{
+            h1{
+                display: flex;
+                text-align: center;
+                align-items: center;
+                font-size: 35px;
+                color:white;
+            }
+            p{
+                color: white;
+                font-size: 15px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+        }
+        .about-us{
+            .aboutus-description{
+                h1{
+                    font-size:35px;
+                    color:white; 
+                    display: flex;
+                    text-align: center;
+                    align-items: center;
+                }
+            }
+        }
+        .contact-section{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+            margin: 30px 0;
+        }
         .boxesFooter{
             flex-direction: row;
             flex-wrap: wrap;

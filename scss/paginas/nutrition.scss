@@ -1,12 +1,12 @@
 .card-nutrition{
     margin: 15px 5px;
     h3{
-        @include cardtitle
+        @include cardtitle;
     }
     a{
-        @include cardlink
+        @include cardlink;
     }
     p{
-       @include cardtext
+       @include cardtext;
      }
 }

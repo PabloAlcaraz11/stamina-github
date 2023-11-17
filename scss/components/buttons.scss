@@ -1,0 +1,17 @@
+.btn{
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 10px;
+    border:0;
+}
+
+.primary-btn{
+    @extend .btn;
+    background-color: white;
+    color: black;
+    &:hover{
+    background-color: black;
+    color: white;
+}
+}
