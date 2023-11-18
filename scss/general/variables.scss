@@ -1,23 +1,30 @@
 $vista: mobile;
+$primary-color: #ffffff;
+$seconadry-color:#000000;
+
 
 @if $vista == mobile {
     @media (max-width:576px){
         .main-supplements{
-            .supplements-title h1{
-                display: flex;
-                text-align: center;
-                align-items: center;
-                font-size: 35px;
-                color:white;
+            .supplements-title{
+                h1{
+                    display: flex;
+                    text-align: center;
+                    align-items: center;
+                    font-size: 35px;
+                    color:$primary-color;
+                }
             } 
         } 
         .nutrition{
-            .banner-nutrition h1{
-                display: flex;
-                text-align: center;
-                align-items: center;
-                font-size: 35px;
-                color:white; 
+            .banner-nutrition{
+                h1{
+                    display: flex;
+                    text-align: center;
+                    align-items: center;
+                    font-size: 35px;
+                    color:$primary-color; 
+                }
             }
         }
         .main-box{
@@ -27,10 +34,10 @@ $vista: mobile;
                     text-align: center;
                     align-items: center;
                     font-size: 35px;
-                    color:white;
+                    color:$primary-color;
                 }
                 p{
-                    color: white;
+                    color:$primary-color;
                     font-size: 15px;
                     display: flex;
                     justify-content: center;
@@ -45,10 +52,10 @@ $vista: mobile;
                 text-align: center;
                 align-items: center;
                 font-size: 35px;
-                color:white;
+                color:$primary-color;
             }
             p{
-                color: white;
+                color:$primary-color;
                 font-size: 15px;
                 display: flex;
                 justify-content: center;
@@ -60,7 +67,7 @@ $vista: mobile;
             .aboutus-description{
                 h1{
                     font-size:35px;
-                    color:white; 
+                    color:$primary-color; 
                     display: flex;
                     text-align: center;
                     align-items: center;

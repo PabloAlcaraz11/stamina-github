@@ -12,12 +12,12 @@
         background-size: cover;
         }
         h1{
-            color: white;
+            color:$primary-color;
             font-size: 80px;
             margin-top: 60px;
         }
         p{
-            color: white;
+            color:$primary-color;
             font-size: 32px;
             margin-bottom: 30px;
         
@@ -31,7 +31,7 @@
         flex-direction: column;
         align-items: flex-start;
         h2{
-            color: black;
+            color:$seconadry-color;
             font-size: 24px;
             cursor: pointer;
         }
@@ -42,7 +42,7 @@
     @include bannerpages;
     background-image: url('https://www.arkbh.com/wp-content/uploads/2023/08/Mixing-Antidepressants-Pre-Workout-Supplements-_-Safety-Risks.jpg');
     h1{
-        color: white;
+        color:$primary-color;
         font-size: 80px;
     }
 }
@@ -50,7 +50,7 @@
     @include bannerpages;
     background-image: url('https://thestayathomechef.com/wp-content/uploads/2020/05/Whole-Wheat-Pancakes-2-scaled.jpg');
     h1{
-        color: white;
+        color:$primary-color;
         font-size: 80px;
     }
 }
@@ -63,24 +63,12 @@
     height: 100%;
     background: rgba(0,0,0,0.5);
     }
-.all-products{
-    background-image:url('https://images.pexels.com/photos/2931251/pexels-photo-2931251.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
-    background-position:center;
-    background-repeat:no-repeat;
-    background-size: cover;
-}
-.products-nutrition{
-    background-image:url('https://images.pexels.com/photos/3311473/pexels-photo-3311473.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
-    background-position:center;
-    background-repeat:no-repeat;
-    background-size: cover;
-}
 #navPage{
     a{
-        background-color: black;
-        color:white;
+        background-color:$seconadry-color;
+        color:$primary-color;
     &:hover {
-        background-color: black;
+        background-color:$seconadry-color;
         color:brown;
     }
 }
@@ -90,11 +78,11 @@
     @include bannerpages;
     background-image: url('https://onnits3.imgix.net/product-page/alpha-brain/refresh-full/alpha-brain-bottle--wide.png?fm=pjpg&auto=compress,format');
     h1{
-        color: white;
+        color:$primary-color;
         font-size: 80px;
     }
     p{
-        color: white;
+        color:$primary-color;
         font-size: 32px;
         margin-bottom: 30px;
         text-align: center;
@@ -114,7 +102,7 @@
     @include bannerpages;
     background-image: url('https://boxlifemagazine.com/wp-content/uploads/2023/05/does-pre-workout-go-bad.png');
     h1{
-        color: white;
+        color:$primary-color;
         font-size: 80px;
     }
 }
@@ -127,12 +115,12 @@
     justify-content: center;
     align-items: center;
     h3{
-        color:white;
+        color:$primary-color;
         font-size:26px;  
         margin: 20px;
     }
     p{
-        color: white;
+        color:$primary-color;
         font-size: 20px;
         text-align: center;
         margin: 20px;
@@ -153,13 +141,13 @@
         font-size: 18px;
         font-weight: 600;
         margin-top: 24px;
-        color: white;
+        color:$primary-color;
     }
     p{
         margin-top: 15px;
         text-align: center;
         font-size: 12px;
-        color: white;
+        color:$primary-color;
 }
 }
 }

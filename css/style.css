@@ -5,24 +5,24 @@
     text-align: center;
     align-items: center;
     font-size: 35px;
-    color: white;
+    color: #ffffff;
   }
   .nutrition .banner-nutrition h1 {
     display: flex;
     text-align: center;
     align-items: center;
     font-size: 35px;
-    color: white;
+    color: #ffffff;
   }
   .main-box .contact-banner h1 {
     display: flex;
     text-align: center;
     align-items: center;
     font-size: 35px;
-    color: white;
+    color: #ffffff;
   }
   .main-box .contact-banner p {
-    color: white;
+    color: #ffffff;
     font-size: 15px;
     display: flex;
     justify-content: center;
@@ -33,10 +33,10 @@
     text-align: center;
     align-items: center;
     font-size: 35px;
-    color: white;
+    color: #ffffff;
   }
   .home .hero p {
-    color: white;
+    color: #ffffff;
     font-size: 15px;
     display: flex;
     justify-content: center;
@@ -44,7 +44,7 @@
   }
   .about-us .aboutus-description h1 {
     font-size: 35px;
-    color: white;
+    color: #ffffff;
     display: flex;
     text-align: center;
     align-items: center;
@@ -90,26 +90,23 @@ h1, h2, h3 {
 }
 .card-supplements h3 {
   font-size: 20px;
-  color: white;
+  color: #000000;
 }
 .card-supplements a {
   width: 100%;
-  background-color: white;
-  color: black;
+  background-color: #000000;
+  color: white;
   border-radius: 12px;
-  border-color: black;
+  border-color: #000000;
 }
 .card-supplements a:hover {
-  background-color: black;
-  color: antiquewhite;
-  border-color: black;
+  background-color: rgb(121, 121, 121);
+  color: #000000;
+  border-color: #000000;
 }
 .card-supplements p {
   font-style: normal !important;
-  color: white;
-  font-weight: lighter !important;
-  background-color: black;
-  border-radius: 12px;
+  color: #000000;
 }
 
 .card-nutrition {
@@ -117,26 +114,23 @@ h1, h2, h3 {
 }
 .card-nutrition h3 {
   font-size: 20px;
-  color: white;
+  color: #000000;
 }
 .card-nutrition a {
   width: 100%;
-  background-color: white;
-  color: black;
+  background-color: #000000;
+  color: white;
   border-radius: 12px;
-  border-color: black;
+  border-color: #000000;
 }
 .card-nutrition a:hover {
-  background-color: black;
-  color: antiquewhite;
-  border-color: black;
+  background-color: rgb(121, 121, 121);
+  color: #000000;
+  border-color: #000000;
 }
 .card-nutrition p {
   font-style: normal !important;
-  color: white;
-  font-weight: lighter !important;
-  background-color: black;
-  border-radius: 12px;
+  color: #000000;
 }
 
 .photoContact img {
@@ -148,13 +142,13 @@ h1, h2, h3 {
   background-color: grey;
   font-style: italic;
   font-weight: bold;
-  color: black;
+  color: #000000;
 }
 
 .contactSection {
   text-align: center;
   justify-content: center;
-  background-color: white;
+  background-color: #ffffff;
 }
 .contactSection h2 {
   font-weight: bold;
@@ -167,13 +161,13 @@ h1, h2, h3 {
 
 #contactForm {
   background-color: rgb(57, 57, 57);
-  color: black;
+  color: #000000;
   padding: 10px 15px;
 }
 #contactForm button {
-  background-color: black;
+  background-color: #000000;
   color: white;
-  border-color: black;
+  border-color: #000000;
   border-radius: 10px;
 }
 
@@ -182,8 +176,8 @@ h1, h2, h3 {
 }
 
 .aboutUsdescription {
-  background-color: white;
-  color: black;
+  background-color: #ffffff;
+  color: #000000;
   text-align: center;
   justify-content: center;
 }
@@ -201,15 +195,15 @@ header img {
   width: 50px;
 }
 header .btn-white {
-  background-color: black;
-  color: white;
+  background-color: #000000;
+  color: #ffffff;
 }
 header:hover {
-  background-color: white;
-  color: black;
+  background-color: #ffffff;
+  color: #000000;
 }
 header .me-2 {
-  border-color: black;
+  border-color: #000000;
   border-radius: 12px;
 }
 header .nav-item a {
@@ -228,12 +222,12 @@ header .nav-item a {
   background-size: cover;
 }
 .home h1 {
-  color: white;
+  color: #ffffff;
   font-size: 80px;
   margin-top: 60px;
 }
 .home p {
-  color: white;
+  color: #ffffff;
   font-size: 32px;
   margin-bottom: 30px;
 }
@@ -248,7 +242,7 @@ header .nav-item a {
   align-items: flex-start;
 }
 .product-section .card-body h2 {
-  color: black;
+  color: #000000;
   font-size: 24px;
   cursor: pointer;
 }
@@ -265,7 +259,7 @@ header .nav-item a {
   background-image: url("https://www.arkbh.com/wp-content/uploads/2023/08/Mixing-Antidepressants-Pre-Workout-Supplements-_-Safety-Risks.jpg");
 }
 .supplements-title h1 {
-  color: white;
+  color: #ffffff;
   font-size: 80px;
 }
 
@@ -281,7 +275,7 @@ header .nav-item a {
   background-image: url("https://thestayathomechef.com/wp-content/uploads/2020/05/Whole-Wheat-Pancakes-2-scaled.jpg");
 }
 .banner-nutrition h1 {
-  color: white;
+  color: #ffffff;
   font-size: 80px;
 }
 
@@ -295,26 +289,12 @@ header .nav-item a {
   background: rgba(0, 0, 0, 0.5);
 }
 
-.all-products {
-  background-image: url("https://images.pexels.com/photos/2931251/pexels-photo-2931251.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.products-nutrition {
-  background-image: url("https://images.pexels.com/photos/3311473/pexels-photo-3311473.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 #navPage a {
-  background-color: black;
-  color: white;
+  background-color: #000000;
+  color: #ffffff;
 }
 #navPage a:hover {
-  background-color: black;
+  background-color: #000000;
   color: brown;
 }
 
@@ -330,11 +310,11 @@ header .nav-item a {
   background-image: url("https://onnits3.imgix.net/product-page/alpha-brain/refresh-full/alpha-brain-bottle--wide.png?fm=pjpg&auto=compress,format");
 }
 .contact-banner h1 {
-  color: white;
+  color: #ffffff;
   font-size: 80px;
 }
 .contact-banner p {
-  color: white;
+  color: #ffffff;
   font-size: 32px;
   margin-bottom: 30px;
   text-align: center;
@@ -361,7 +341,7 @@ header .nav-item a {
   background-image: url("https://boxlifemagazine.com/wp-content/uploads/2023/05/does-pre-workout-go-bad.png");
 }
 .aboutus-description h1 {
-  color: white;
+  color: #ffffff;
   font-size: 80px;
 }
 
@@ -376,12 +356,12 @@ header .nav-item a {
   align-items: center;
 }
 .aboutus-text h3 {
-  color: white;
+  color: #ffffff;
   font-size: 26px;
   margin: 20px;
 }
 .aboutus-text p {
-  color: white;
+  color: #ffffff;
   font-size: 20px;
   text-align: center;
   margin: 20px;
@@ -404,13 +384,13 @@ header .nav-item a {
   font-size: 18px;
   font-weight: 600;
   margin-top: 24px;
-  color: white;
+  color: #ffffff;
 }
 .aboutus-section .card-aboutus p {
   margin-top: 15px;
   text-align: center;
   font-size: 12px;
-  color: white;
+  color: #ffffff;
 }
 
 footer {
@@ -454,12 +434,12 @@ footer .social-media img {
 }
 
 .primary-btn {
-  background-color: white;
-  color: black;
+  background-color: #ffffff;
+  color: #000000;
 }
 .primary-btn:hover {
-  background-color: black;
-  color: white;
+  background-color: #000000;
+  color: #ffffff;
 }
 
 /*# sourceMappingURL=style.css.map */

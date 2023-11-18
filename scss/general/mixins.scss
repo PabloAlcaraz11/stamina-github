@@ -1,25 +1,22 @@
 @mixin cardtitle{
     font-size: 20px;
-        color: white;
+    color:$seconadry-color;
 }
 @mixin cardlink{
     width: 100%;
-        background-color:white;
-        color:black;
+        background-color:$seconadry-color;
+        color:white;
         border-radius: 12px;
-        border-color:black;
+        border-color:$seconadry-color;
         &:hover{
-            background-color: black;
-            color: antiquewhite;
-            border-color: black;
+        background-color:rgb(121, 121, 121);
+        color:$seconadry-color;
+        border-color:$seconadry-color;
 }
 }
 @mixin cardtext{
         font-style: normal !important;
-        color: white;
-        font-weight: lighter !important;
-        background-color: black;
-        border-radius: 12px;
+        color:$seconadry-color;
 }
 @mixin bannerpages{
     display: flex;

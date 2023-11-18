@@ -8,12 +8,12 @@
     background-color: grey;
     font-style: italic;
     font-weight: bold;
-    color:black;
+    color:$seconadry-color;
 }
 .contactSection{
     text-align: center;
     justify-content: center;
-    background-color:white;
+    background-color:$primary-color;
     h2{
         font-weight: bold;
         font-size: 30px;
@@ -25,12 +25,12 @@
 }
 #contactForm{
     background-color: rgb(57, 57, 57);
-    color:black;
+    color:$seconadry-color;
     padding: 10px 15px;
     button{
-        background-color:black;
+        background-color:$seconadry-color;
         color:white;
-        border-color: black;
+        border-color:$seconadry-color;
         border-radius: 10px;
     }
 }
